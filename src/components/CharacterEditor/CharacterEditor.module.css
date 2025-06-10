@@ -5,7 +5,9 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
   width: 65%;
+  z-index: 2;
 }
 
 .header {
@@ -36,4 +38,14 @@
 
 .controlColumn {
   width: 77%;
+}
+
+.lightblue {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 1000px;
+  z-index: -1;
 }
